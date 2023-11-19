@@ -1,9 +1,9 @@
-export default function Note() {
+export default function Note(props) {
   return (
     <div className="note" id="note.id">
       <span className="material-symbols-outlined">check_circle</span>
-      <div className="title">TITLE</div>
-      <div className="text">TEXT</div>
+      <div className="title">{props.title}</div>
+      <div className="text">{props.text}</div>
       <div className="note-footer">
         <div className="tooltip">
           <span className="material-symbols-outlined hover small-icon">
