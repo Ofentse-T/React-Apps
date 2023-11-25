@@ -67,51 +67,51 @@ const Form = (props) => {
 
           {isActiveForm ? (
             <div className="form-actions">
-              <div className="icons">
+              <div className="symbols">
                 <div className="tooltip">
-                  <span className="material-icons-outlined hover small-icon">
+                  <span className="material-symbols-outlined hover small-icon">
                     add_alert
                   </span>
                   <span className="tooltip-text">Remind me</span>
                 </div>
                 <div className="tooltip">
-                  <span className="material-icons-outlined hover small-icon">
+                  <span className="material-symbols-outlined hover small-icon">
                     person_add
                   </span>
                   <span className="tooltip-text">Collaborator</span>
                 </div>
                 <div className="tooltip">
-                  <span className="material-icons-outlined hover small-icon">
+                  <span className="material-symbols-outlined hover small-icon">
                     palette
                   </span>
                   <span className="tooltip-text">Change Color</span>
                 </div>
                 <div className="tooltip">
-                  <span className="material-icons-outlined hover small-icon">
+                  <span className="material-symbols-outlined hover small-icon">
                     image
                   </span>
                   <span className="tooltip-text">Add Image</span>
                 </div>
                 <div className="tooltip">
-                  <span className="material-icons-outlined hover small-icon">
+                  <span className="material-symbols-outlined hover small-icon">
                     archive
                   </span>
                   <span className="tooltip-text">Archive</span>
                 </div>
                 <div className="tooltip">
-                  <span className="material-icons-outlined hover small-icon">
+                  <span className="material-symbols-outlined hover small-icon">
                     more_vert
                   </span>
                   <span className="tooltip-text">More</span>
                 </div>
                 <div className="tooltip">
-                  <span className="material-icons-outlined hover small-icon">
+                  <span className="material-symbols-outlined hover small-icon">
                     undo
                   </span>
                   <span className="tooltip-text">Undo</span>
                 </div>
                 <div className="tooltip">
-                  <span className="material-icons-outlined hover small-icon">
+                  <span className="material-symbols-outlined hover small-icon">
                     redo
                   </span>
                   <span className="tooltip-text">Redo</span>
@@ -124,15 +124,17 @@ const Form = (props) => {
           ) : (
             <div className="form-actions">
               <div className="tooltip">
-                <span className="material-icons-outlined hover">check_box</span>
+                <span className="material-symbols-outlined hover">
+                  check_box
+                </span>
                 <span className="tooltip-text">New List</span>
               </div>
               <div className="tooltip">
-                <span className="material-icons-outlined hover">brush</span>
+                <span className="material-symbols-outlined hover">brush</span>
                 <span className="tooltip-text">New Drawing</span>
               </div>
               <div className="tooltip">
-                <span className="material-icons-outlined hover">image</span>
+                <span className="material-symbols-outlined hover">image</span>
                 <span className="tooltip-text">New Image</span>
               </div>
             </div>

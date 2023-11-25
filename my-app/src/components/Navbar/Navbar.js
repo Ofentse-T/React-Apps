@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav>
       <div className="logo-area">
         <div className="tooltip">
-          <span className="material-icons-outlined hover">menu</span>
+          <span className="material-symbols-outlined hover">menu</span>
           <span className="tooltip-text">Main Menu</span>
         </div>
 
@@ -20,32 +20,34 @@ const Navbar = () => {
 
       <div className="search-area">
         <div className="tooltip">
-          <span className="material-icons-outlined hover">search</span>
+          <span class="material-symbols-outlined hover">search</span>
           <span className="tooltip-text">Search</span>
         </div>
         <input type="text" placeholder="Search" />
       </div>
       <div className="settings-area">
         <div className="tooltip">
-          <span className="material-icons-outlined hover">refresh</span>
+          <span className="material-symbols-outlined hover">refresh</span>
           <span className="tooltip-text">Refresh</span>
         </div>
         <div className="tooltip">
-          <span className="material-icons-outlined hover">view_agenda</span>
+          <span className="material-symbols-outlined hover">view_agenda</span>
           <span className="tooltip-text">List View</span>
         </div>
         <div className="tooltip">
-          <span className="material-icons-outlined hover">settings</span>
+          <span className="material-symbols-outlined hover">settings</span>
           <span className="tooltip-text">Settings</span>
         </div>
       </div>
       <div className="profile-actions-area">
         <div className="tooltip">
-          <span className="material-icons-outlined hover">apps</span>
+          <span className="material-symbols-outlined hover">apps</span>
           <span className="tooltip-text">Apps</span>
         </div>
         <div className="tooltip logout">
-          <span className="material-icons-outlined hover">account_circle</span>
+          <span className="material-symbols-outlined hover">
+            account_circle
+          </span>
           <span className="tooltip-text">Logout</span>
           <span className="auth-user"></span>
         </div>
